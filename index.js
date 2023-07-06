@@ -4,7 +4,6 @@ const connectDB = require("./config/db");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const app = express();
-const images = require("./utils/images");
 dotenv.config();
 connectDB();
 app.use(express.json());
